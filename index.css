@@ -1,0 +1,131 @@
+nav {
+	margin-bottom: 0px !important;
+}
+
+.fa-cubes {
+	margin-left: 30px;
+	color: #333;
+}
+#myCarousel {
+	height: 80vh;
+}
+
+.carousel-inner {
+	height: 80vh;
+}
+
+.about {
+	margin: 10vh 0vw;
+}
+
+.aboutUsImg {
+	height: 100%;
+}
+
+.forma {
+	margin-top: 20vh;
+	background-color: #f8f8f8;
+	color: #333;
+	padding-bottom: 5vh;
+}
+
+.forma-info {
+	padding-top: 5vh;
+}
+
+.Adress {
+	color: black;
+	 font-weight: bold;
+}
+
+.about-img {
+	background-image: url("chairs-company-desk-7065.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	width: 100vw;
+	color: white;
+}
+
+.about-img h2 {
+	margin-top: 60vh;
+	font-weight: bolder;
+	font-size: 50px;
+	color: white;
+}
+
+.about-who {
+		background-image: url("chairs-chairs-and-tables-contemporary-2678468.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.about-who h2 {
+	padding: 35px;
+	font-weight: bolder;
+	font-size: 50px;
+	color: white;
+}
+
+.about-text p{
+	font-size: 35px;
+	padding: 20px;
+
+}
+
+.about-naslov h1{
+	font-size: 60px;
+	font-weight: bolder;
+}
+.about-naslov {
+	background-color: black;
+	color: white;
+}
+
+.our-team {
+	font-size: 60px;
+	padding: 10vh;
+	font-weight: bolder;
+}
+
+.footer {
+	background-color: gray;
+	height: 10vh;
+	padding: 20px;
+}
+
+.footer ul li{
+	display: inline;
+	color: white;
+}
+
+.footer ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+.footer li a {
+	font-size: 20px;
+}
+
+.footer-social ul li a {
+	margin-left: 45px;
+}
+
+.footer-links ul li a {
+	margin-right: 20px;
+}
+
+.services-img {
+	height: 90vh;
+	width: 100vw;
+}
+
+.services-naslov {
+	margin:10vh 0vw;
+	font-size: 60px;
+	font-weight: bolder;
+}
+
+
+
