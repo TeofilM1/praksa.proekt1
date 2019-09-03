@@ -1,93 +1,25 @@
+/* navbar */
 nav {
 	margin-bottom: 0px !important;
 }
 
+.navbar li a:hover {
+	color: blue !important;
+}
+
+.navbar li a {
+	padding-bottom: 5px;
+}
+
+.navbar-brand {
+	padding: 0;
+}
+
 .fa-cubes {
 	margin-left: 30px;
-	color: #333;
+	color: blue !important;
 }
-#myCarousel {
-	height: 80vh;
-}
-
-.carousel-inner {
-	height: 80vh;
-}
-
-.about {
-	margin: 10vh 0vw;
-}
-
-.aboutUsImg {
-	height: 100%;
-}
-
-.forma {
-	margin-top: 20vh;
-	background-color: #f8f8f8;
-	color: #333;
-	padding-bottom: 5vh;
-}
-
-.forma-info {
-	padding-top: 5vh;
-}
-
-.Adress {
-	color: black;
-	 font-weight: bold;
-}
-
-.about-img {
-	background-image: url("chairs-company-desk-7065.jpg");
-	background-position: center;
-	background-size: cover;
-	height: 100vh;
-	width: 100vw;
-	color: white;
-}
-
-.about-img h2 {
-	margin-top: 60vh;
-	font-weight: bolder;
-	font-size: 50px;
-	color: white;
-}
-
-.about-who {
-		background-image: url("chairs-chairs-and-tables-contemporary-2678468.jpg");
-	background-position: center;
-	background-size: cover;
-}
-
-.about-who h2 {
-	padding: 35px;
-	font-weight: bolder;
-	font-size: 50px;
-	color: white;
-}
-
-.about-text p{
-	font-size: 35px;
-	padding: 20px;
-
-}
-
-.about-naslov h1{
-	font-size: 60px;
-	font-weight: bolder;
-}
-.about-naslov {
-	background-color: black;
-	color: white;
-}
-
-.our-team {
-	font-size: 60px;
-	padding: 10vh;
-	font-weight: bolder;
-}
-
+/* footer */
 .footer {
 	background-color: gray;
 	height: 10vh;
@@ -112,20 +44,231 @@ nav {
 	margin-left: 45px;
 }
 
+.footer-social ul li a:hover {
+	color: blue;
+}
+
 .footer-links ul li a {
 	margin-right: 20px;
 }
 
-.services-img {
-	height: 90vh;
-	width: 100vw;
+.footer-links ul li a:hover {
+	color: blue;
 }
 
-.services-naslov {
-	margin:10vh 0vw;
+/* home page */
+
+/* carousel */
+#myCarousel {
+	height: 80vh;
+}
+
+.carousel-inner {
+	height: 80vh;
+}
+
+.heading {
+	padding: 10vh 0vw;
+	background-color: #f8f8f8;
+	font-size: 45px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.aboutUsImg {
+	height: 100%;
+}
+
+.clients {
+	padding-bottom: 5vh;
+	padding-top: 5vh;
+}
+
+.btn-clients {
+	margin-top: 5vh;
+}
+
+.forma {
+	background-color: #f8f8f8;
+	color: #333;
+	padding-bottom: 5vh;
+}
+
+.Adress {
+	color: black;
+	 font-weight: bold;
+	 font-size: 15px;
+}
+
+/* about page */
+
+.about-img {
+	background-image: url("chairs-company-desk-7065.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: contain;
+	height: 85vh;
+	width: 100vw;
+	color: white;
+}
+
+.about-img h2 {
+	margin-top: 45vh;
+	font-weight: bolder;
+	font-size: 45px;
+	color: white;
+}
+
+.about-who {
+	background-image: url("chairs-chairs-and-tables-contemporary-2678468.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.about-who h2 {
+	padding: 35px;
+	font-weight: bolder;
+	font-size: 50px;
+	color: white;
+}
+
+.about-what {
+	background-image: url("cheerful-colleagues-digital-device-1432942.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.about-what h2 {
+	padding: 35px;
+	font-weight: bolder;
+	font-size: 50px;
+	color: white;
+}
+
+.about-why {
+	background-image: url("advice-colleagues-communication-1161465.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.about-why h2 {
+	padding: 35px;
+	font-weight: bolder;
+	font-size: 50px;
+	color: white;
+}
+
+.about-text p{
+	font-size: 35px;
+	padding: 20px;
+}
+
+.our-team {
 	font-size: 60px;
+	padding: 10vh;
 	font-weight: bolder;
 }
 
+/* service page */
+.services-img {
+	background-image: url("arrows-blur-buttons-2115257.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	height: 85vh;
+	width: 100vw;
+	color: white;
+	padding-left: 20vw;
+	padding-right: 15vw;
+	padding-top: 15vw;
+}
+
+.services-img h1 {
+	font-size: 50px;
+	font-weight: bolder;
+}
+
+.web-icon {
+	background-color: orangered;
+	color: white;
+}
+
+.hosting-icon {
+	background-color: aqua;
+	color: white;
+}
+
+.graphical-icon {
+	background-color: greenyellow;
+	color: white;
+}
+
+.marketing-icon {
+	background-color: brown;
+	color: white;
+}
+
+.mobile-icon {
+	background-color: gray;
+	color: white;
+}
+
+.development-icon {
+	background-color: magenta;
+	color: white;
+}
+
+.branding-icon {
+	background-color: sandybrown;
+	color: white;
+}
+
+.fas {
+	color: white;
+	padding: 15px;
+}
+
+.fas:hover {
+	color: blue;
+}
+
+.btn-icon {
+	margin-bottom: 15px;
+	color: white;
+	background-color: transparent;
+	border: 3px solid white;
+}
+
+.btn-icon:hover {
+	background-color: white;
+	color: blue;
+	border: 3px solid blue;
+}
+
+.fa-check {
+	color: black !important;
+}
+
+.panel-title {
+	padding: 10px;;
+}
+
+/* portfolio page */
+
+.portfolio-img {
+	height: 80vh;
+	width: 100vw;
+}
+
+/* contact page */
+
+.contact-img {
+	background-image: url("access-blur-bowl-744461.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	height: 85vh;
+	width: 100vw;
+}
 
 
