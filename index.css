@@ -1,6 +1,7 @@
 /* navbar */
 nav {
 	margin-bottom: 0px !important;
+	border: 0;
 }
 
 .navbar li a:hover {
@@ -59,20 +60,56 @@ nav {
 /* home page */
 
 /* carousel */
-#myCarousel {
-	height: 80vh;
-}
 
 .carousel-inner {
-	height: 80vh;
+	height: 80vh;;
+}
+
+.carousel-caption {
+	padding: 0;
+	position: absolute;
+	left: 10px;
+	top: 50px;
+	color: black;
+	
+}
+
+.carousel-caption h2 {
+	font-size: 100px;
+	font-weight: 700;
+	color: white;
+	padding-top: 20px;
+}
+
+.carousel-caption h1 {
+	color: blue;
+	font-weight: 700;
+	font-size: 100px;
+	padding-top: 200px;
+}
+
+.carousel-caption h3 {
+	color: rgb(226, 60, 60);
+	font-weight: 700;
+	font-size: 100px;
+	text-align: left;
+	padding-top: 200px;
+}
+
+.growth {
+	font-size: 60px;
+	color: red;
+	font-weight: 700;
 }
 
 .heading {
 	padding: 10vh 0vw;
-	background-color: #f8f8f8;
-	font-size: 45px;
-	font-weight: bold;
+	background-color: #eeeff1;
+	color: darkgray;
+	font-size: 55px;
+	font-weight: bolder;
 	margin: 0;
+
 }
 
 .aboutUsImg {
@@ -82,10 +119,55 @@ nav {
 .clients {
 	padding-bottom: 5vh;
 	padding-top: 5vh;
+	color: black;
+}
+
+.clients img {
+	height: 300px;
+	/* border: 3px solid lightgray; */
 }
 
 .btn-clients {
 	margin-top: 5vh;
+}
+
+.item:hover .item-overlay.top {
+	top: 0;
+  }
+  .item-overlay {
+	position: absolute;
+	top: 0; right: 0; bottom: 0; left: 0;
+	overflow: hidden;
+	text-align: center;
+	width: 100%; 
+	-moz-transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
+	-webkit-transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
+	transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
+  }
+  .item-overlay.top {
+	top: 100%;
+  }
+  .item {
+	position: relative;
+	float: left;
+	overflow: hidden;
+  }
+  .item img {
+	max-width: 100%;
+  }
+
+
+.when {
+	background-image: url("chairs-chairs-and-tables-contemporary-2678468.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: contain;
+	height: 25vh;
+	width: 100vw;
+	font-size: 50px;
+	margin: 0;
+	padding-top: 50px;
+	color: white;
 }
 
 .forma {
@@ -178,8 +260,8 @@ nav {
 	height: 85vh;
 	width: 100vw;
 	color: white;
-	padding-left: 20vw;
-	padding-right: 15vw;
+	padding-left: 15vw;
+	padding-right: 5vw;
 	padding-top: 15vw;
 }
 
@@ -228,10 +310,6 @@ nav {
 	padding: 15px;
 }
 
-.fas:hover {
-	color: blue;
-}
-
 .btn-icon {
 	margin-bottom: 15px;
 	color: white;
@@ -243,6 +321,11 @@ nav {
 	background-color: white;
 	color: blue;
 	border: 3px solid blue;
+}
+
+.btn-icon:focus{
+	outline: none;
+	color: blue;
 }
 
 .fa-check {
@@ -260,6 +343,16 @@ nav {
 	width: 100vw;
 }
 
+.portfolio-links {
+	background-color: teal;
+	color: white;
+	padding: 5vh 0vw;
+}
+
+.portfolio-links img {
+	height: 300px;
+}
+
 /* contact page */
 
 .contact-img {
@@ -267,7 +360,7 @@ nav {
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
-	height: 85vh;
+	height: 80vh;
 	width: 100vw;
 }
 
